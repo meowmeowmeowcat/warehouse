@@ -110,9 +110,9 @@ cbor2==5.4.2 \
     --hash=sha256:d9f64241bb30439f6ebde74101683e9dceecab95afe105560ac9d0e54d1b3c2e \
     --hash=sha256:e283e70b55a049ff364cc5e648fde587e4d9b0e87e4b2664c69e639135e6b3b8
     # via webauthn
-celery[sqs]==5.2.2 \
-    --hash=sha256:2844eb040e915398623a43253a8e1016723442ece6b0751a3c416d8a2b34216f \
-    --hash=sha256:5a68a351076cfac4f678fa5ffd898105c28825a2224902da006970005196d061
+celery[sqs]==5.2.6 \
+    --hash=sha256:d1398cadf30f576266b34370e28e880306ec55f7a4b6307549b0ae9c15663481 \
+    --hash=sha256:da31f8eae7607b1582e5ee2d3f2d6f58450585afd23379491e3d9229d08102d0
     # via
     #   -r requirements/main.in
     #   celery-redbeat
@@ -1258,7 +1258,6 @@ setuptools==59.6.0 \
     --hash=sha256:4ce92f1e1f8f01233ee9952c04f6b81d1e02939d6e1b488428154974a4d0783e
     # via
     #   -r requirements/main.in
-    #   celery
     #   google-api-core
     #   google-auth
     #   pastedeploy
