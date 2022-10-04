@@ -91,9 +91,9 @@ cachetools==4.2.4 \
     # via
     #   google-auth
     #   premailer
-cattrs==1.9.0 \
-    --hash=sha256:1ef33f089e0a494e8d1b487508356f055c865b1955b125c00c991a4358543c80 \
-    --hash=sha256:8eca49962b1bfc09c24d442aa55688be88efe5c24aeef89d3be135614b95c678
+cattrs==22.2.0 \
+    --hash=sha256:bc12b1f0d000b9f9bee83335887d532a1d3e99a833d1bf0882151c97d3e68c21 \
+    --hash=sha256:f0eed5642399423cf656e7b66ce92cdc5b963ecafd041d1b24d136fdde7acf6d
     # via webauthn
 cbor2==5.4.2 \
     --hash=sha256:0153635a78e62d70f26f5b3469cb8de822420eda69c996304fb3d0dc1a53d7f3 \
@@ -324,6 +324,10 @@ email-validator==1.1.3 \
     --hash=sha256:5675c8ceb7106a37e40e2698a57c056756bf3f272cfa8682a4f87ebd95d8440b \
     --hash=sha256:aa237a65f6f4da067119b7df3f13e89c25c051327b2b5b66dc075f33d62480d7
     # via wtforms
+exceptiongroup==1.0.0rc9 \
+    --hash=sha256:2e3c3fc1538a094aab74fad52d6c33fc94de3dfee3ee01f187c0e0c72aec5337 \
+    --hash=sha256:9086a4a21ef9b31c72181c77c040a074ba0889ee56a7b289ff0afb0d97655f96
+    # via cattrs
 first==2.0.2 \
     --hash=sha256:8d8e46e115ea8ac652c76123c0865e3ff18372aef6f03c22809ceefcea9dec86 \
     --hash=sha256:ff285b08c55f8c97ce4ea7012743af2495c9f1291785f163722bd36f6af6d3bf
